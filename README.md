@@ -56,6 +56,22 @@ npm run dev
 Create a .env file in backend/
 ```bash
 SPOTIFY_CLIENT_ID=your_client_id
-SPOTIFY_CLIENT_SECRET=your_client_secre
+SPOTIFY_CLIENT_SECRET=your_client_secret
 ```
+
+---
+
+## Preview
+![Screenshot](frontend/src/assets/Screenshot.png)
+
+---
+
+## How It Works?
+
+- User allows webcam access
+- A snapshot is captured
+- Backend AI model detects facial emotion
+- Emotion is mapped to a predefined Spotify playlist
+- Playlist opens automatically in Spotify
+- Detected moods are saved in history for analysis
 
